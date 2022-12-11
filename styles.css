@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+
+body{
+margin:0px auto;
+font-family: 'Nunito', sans-serif;
+min-height: 1000px;
+
+background-image: linear-gradient(65deg ,#e68646,#a7c83c  );
+color: #f3f3f5;
+
+}
+h1{
+font-size:4em;
+font-weight:700;
+margin:auto auto 5%;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+color: #0f0f10;
+
+}
+
+.row{
+
+width: 90%;
+border: 1px solid #3d345c;
+border-radius: 5px;
+box-shadow: 8px 6px 14px 0px #9899cf;
+font-size: 1.1rem;
+margin-left: 50px;
+}
+
+.listItem{
+height: 60px;
+padding:10px 0;
+}
+.text-left {
+padding-top:6px;
+}
+.text-center{
+    padding-top: 4px;
+}
+.text-left{
+    padding-left: 5%;
+}
+.input{
+display: flex;
+flex-shrink: 2;
+}
+button{
+margin-left: 20px;
+}
+input{
+border:1px solid #2D033B;
+border-radius: 5px;
+}
+.remove{
+color: rgb(237, 34, 34);
+border: 2px solid hsl(0, 45%, 83%);
+border-radius: 5px;
+}
+.remove:hover{
+    color:#f3f3f5;
+    background-color: rgb(70, 194, 251);
+    border: 1px solid rgb(144, 209, 32);
+}
+.add{
+    color: rgb(242, 245, 50);
+    border: 1px solid rgb(242, 245, 50);
+}
+.add:hover{
+    background-color: rgb(238, 240, 101) ;
+    color: #f3f3f5;
+    border: 1px solid rgb(242, 245, 50);
+}
+.bi-plus{
+    font-size: 1.1rem;
+    
+    
+}
+.divIcon{
+    float: right;
+}
+footer{
+    text-align: center;
+    color: rgb(149, 80, 80);
+}
